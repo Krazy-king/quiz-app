@@ -27,7 +27,7 @@ body {
 }
 
 .app span {
-  color: #ff0000;
+  color: #001e4d;
 }
 
 .quiz {
@@ -42,12 +42,51 @@ body {
 
 .btn {
   background: #fff;
-  color: #ff0000;
+  color: #001e4d;
   font-weight: 500;
   width: 100%;
-  border: 1px solid #ff0000;
+  border: 1px solid #001e4d;
   padding: 10px;
   margin: 10px 0;
-  border-radius: 2px;
+  border-radius: 6px;
   text-align: left;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover.btn:hover:not([disabled]) {
+  border: 1px solid #fff;
+  background: #001e4d;
+  color: #fff;
+}
+
+.btn:disabled {
+  cursor: no-drop;
+}
+
+#next-btn {
+  color: #001e4d;
+  font-weight: 500;
+  padding: 10px;
+  margin: 20px auto 0;
+  width: 25%;
+  background: #fff;
+  border: 1px solid #001e4d;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.3s;
+  display: none;
+}
+
+#next-btn:hover {
+  background: #001e4d;
+  color: #fff;
+}
+
+.correct {
+  background: #008000;
+}
+
+.incorrect {
+  background: #ff0000;
 }
