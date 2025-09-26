@@ -15,27 +15,32 @@
     <div class="app">
       <h1>Simple Quiz</h1>
       <div class="count">
-        <div class="correct-count"></div>
-        <div class="false-count"></div>
-      </div>
-      <div class="quiz">
-        <h2 id="question">Question goes here</h2>
-        <div id="answer-buttons">
-          <button class="btn">Answer 1</button>
-          <button class="btn">Answer 2</button>
-          <button class="btn">Answer 3</button>
-          <button class="btn">Answer 4</button>
-        </div>
-        <button id="next-btn">Next</button>
-      </div>
-      <div class="controls">
-        <button id="back-btn" class="next-btn">
-          <img src="./imgs/arrow-left-box-fill.png" alt="" />
-        </button>
-        <button id="next-btn" class="next-btn">Next</button>
+        <div class="correct-count">0</div>
+        <div class="false-count">0</div>
       </div>
 
-      <a href="index.html"><button class="btn-exit">Back</button></a>
+      <div class="quiz">
+        <h2 id="question">Question goes here</h2>
+        <div id="answer-buttons"></div>
+      </div>
+
+      <div class="controls">
+        <button id="back-btn" class="btn">
+          <img
+            src="./imgs/arrow-left-box-fill.png"
+            alt="back"
+            style="width: 18px; vertical-align: middle"
+          />
+        </button>
+
+        <div class="spacer"></div>
+
+        <button id="next-btn" class="btn">Next</button>
+      </div>
+
+      <div style="margin-top: 14px">
+        <a href="index.html"><button class="btn-exit">Back</button></a>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>

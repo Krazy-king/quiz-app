@@ -31,12 +31,15 @@ body {
   display: flex;
   flex-direction: row-reverse;
   position: relative;
+  gap: 10px;
 }
 
 .correct-count,
 .false-count {
   padding: 0.7rem;
   border-radius: 0.2rem;
+  min-width: 40px;
+  text-align: center;
 }
 
 .correct-count {
@@ -129,9 +132,11 @@ body {
 }
 
 .correct {
-  background: #008000;
+  background: #008000 !important;
+  color: #fff;
 }
 
 .incorrect {
-  background: #ff0000;
+  background: #ff0000 !important;
+  color: #fff;
 }
