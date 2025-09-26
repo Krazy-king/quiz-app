@@ -9,23 +9,123 @@
       href="./imgs/view-3d-button.jpg"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="app">
-      <h1>Simple Quiz</h1>
-      <span>_______________________________________________________</span>
-      <div class="quiz">
-        <h2 id="question">Question goes here</h2>
-        <div id="answer-buttons">
-          <button class="btn">Answer 1</button>
-          <button class="btn">Answer 2</button>
-          <button class="btn">Answer 3</button>
-          <button class="btn">Answer 4</button>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quiz App</title>
+        <style>
+          body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            background-repeat: no-repeat;
+            color: white;
+            text-align: center;
+          }
+          @keyframes pulseBackground {
+            0% {
+              background-position: 0% 50%;
+            }
+            50% {
+              background-position: 100% 50%;
+            }
+            100% {
+              background-position: 0% 50%;
+            }
+          }
+
+          @keyframes glow {
+            from {
+              text-shadow: 0 0 5px #00f6ff, 0 0 10px #00f6ff, 0 0 20px #00f6ff;
+            }
+            to {
+              text-shadow: 0 0 20px #00f6ff, 0 0 30px #00f6ff, 0 0 50px #00f6ff;
+            }
+          }
+
+          .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+            animation: glow 2.5s ease-in-out infinite alternate;
+          }
+
+          h1 {
+            margin-bottom: 20px;
+            font-size: 2.2rem;
+          }
+
+          p {
+            margin-bottom: 30px;
+          }
+
+          .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 10px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+          }
+
+          .btn-continue {
+            background: transparent;
+            color: white;
+            border: 1px solid #fff;
+          }
+
+          .btn-continue:hover {
+            background-color: #45a049;
+            border: none;
+          }
+
+          .btn-exit {
+            background: transparent;
+            color: white;
+            border: 1px solid #fff;
+          }
+
+          .btn-exit:hover {
+            background-color: #da190b;
+            border: none;
+          }
+        </style>
+      </head>
+      <body>
+        <div class="container">
+          <h1>Welcome to the Quiz App</h1>
+          <p>Test your knowledge and have fun!</p>
+          <button class="btn btn-continue" onclick="continueToApp()">
+            Continue
+          </button>
+          <button class="btn btn-exit" onclick="exitApp()">Exit</button>
         </div>
-        <button id="next-btn">Next</button>
-      </div>
-    </div>
-    <script src="script.js"></script>
+
+        <script>
+          function continueToApp() {
+            window.location.href = "main.html";
+          }
+
+          function exitApp() {
+            window.open("", "_self");
+            window.close();
+
+            window.location.href = "about:blank";
+          }
+        </script>
+      </body>
+    </html>
   </body>
 </html>

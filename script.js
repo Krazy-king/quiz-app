@@ -333,285 +333,6 @@ const questions = [
   ] 
 },
 {     
-  question: "Which is the largest animal in the world",     
-  answers: [         
-    { text: "Shark", correct: false },         
-    { text: "Blue whale", correct: true },         
-    { text: "Elephant", correct: false },         
-    { text: "Giraffe", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which planet is known as the Red Planet?",     
-  answers: [         
-    { text: "Venus", correct: false },         
-    { text: "Mars", correct: true },         
-    { text: "Jupiter", correct: false },         
-    { text: "Saturn", correct: false },     
-  ] 
-}, 
-{     
-  question: "What is the capital city of France?",     
-  answers: [         
-    { text: "Paris", correct: true },         
-    { text: "Rome", correct: false },         
-    { text: "Madrid", correct: false },         
-    { text: "Berlin", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which gas do plants absorb from the atmosphere?",     
-  answers: [         
-    { text: "Oxygen", correct: false },         
-    { text: "Carbon dioxide", correct: true },         
-    { text: "Nitrogen", correct: false },         
-    { text: "Hydrogen", correct: false },     
-  ] 
-}, 
-{     
-  question: "What is the largest continent in the world?",     
-  answers: [         
-    { text: "Africa", correct: false },         
-    { text: "Asia", correct: true },         
-    { text: "Europe", correct: false },         
-    { text: "Australia", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which is the fastest land animal?",     
-  answers: [         
-    { text: "Lion", correct: false },         
-    { text: "Cheetah", correct: true },         
-    { text: "Tiger", correct: false },         
-    { text: "Horse", correct: false },     
-  ] 
-}, 
-{     
-  question: "Who wrote the play Romeo and Juliet?",     
-  answers: [         
-    { text: "William Shakespeare", correct: true },         
-    { text: "Charles Dickens", correct: false },         
-    { text: "Mark Twain", correct: false },         
-    { text: "Leo Tolstoy", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which element has the chemical symbol O?",     
-  answers: [         
-    { text: "Gold", correct: false },         
-    { text: "Oxygen", correct: true },         
-    { text: "Osmium", correct: false },         
-    { text: "Oxide", correct: false },     
-  ] 
-}, 
-{     
-  question: "What is the tallest mountain in the world?",     
-  answers: [         
-    { text: "K2", correct: false },         
-    { text: "Mount Everest", correct: true },         
-    { text: "Kilimanjaro", correct: false },         
-    { text: "Andes", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which is the smallest prime number?",     
-  answers: [         
-    { text: "1", correct: false },         
-    { text: "2", correct: true },         
-    { text: "3", correct: false },         
-    { text: "5", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which ocean is the largest?",     
-  answers: [         
-    { text: "Atlantic Ocean", correct: false },         
-    { text: "Pacific Ocean", correct: true },         
-    { text: "Indian Ocean", correct: false },         
-    { text: "Arctic Ocean", correct: false },     
-  ] 
-}, 
-{     
-  question: "Who was the first man to walk on the moon?",     
-  answers: [         
-    { text: "Buzz Aldrin", correct: false },         
-    { text: "Neil Armstrong", correct: true },         
-    { text: "Yuri Gagarin", correct: false },         
-    { text: "Michael Collins", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which instrument has keys, pedals, and strings?",     
-  answers: [         
-    { text: "Guitar", correct: false },         
-    { text: "Piano", correct: true },         
-    { text: "Violin", correct: false },         
-    { text: "Drums", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which language has the most native speakers in the world?",     
-  answers: [         
-    { text: "English", correct: false },         
-    { text: "Mandarin Chinese", correct: true },         
-    { text: "Spanish", correct: false },         
-    { text: "Hindi", correct: false },     
-  ] 
-}, 
-{     
-  question: "How many days are there in a leap year?",     
-  answers: [         
-    { text: "364", correct: false },         
-    { text: "366", correct: true },         
-    { text: "365", correct: false },         
-    { text: "368", correct: false },     
-  ] 
-}, 
-{     
-  question: "What is the currency of Japan?",     
-  answers: [         
-    { text: "Won", correct: false },         
-    { text: "Yen", correct: true },         
-    { text: "Dollar", correct: false },         
-    { text: "Peso", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which blood group is known as the universal donor?",     
-  answers: [         
-    { text: "A", correct: false },         
-    { text: "O negative", correct: true },         
-    { text: "AB", correct: false },         
-    { text: "B", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which is the hardest natural substance on Earth?",     
-  answers: [         
-    { text: "Iron", correct: false },         
-    { text: "Diamond", correct: true },         
-    { text: "Gold", correct: false },         
-    { text: "Granite", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which is the longest river in the world?",     
-  answers: [         
-    { text: "Amazon River", correct: true },         
-    { text: "Nile River", correct: false },         
-    { text: "Yangtze River", correct: false },         
-    { text: "Mississippi River", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which is the national sport of Japan?",     
-  answers: [         
-    { text: "Karate", correct: false },         
-    { text: "Sumo Wrestling", correct: true },         
-    { text: "Judo", correct: false },         
-    { text: "Kendo", correct: false },     
-  ] 
-}, 
-{     
-  question: "Who painted the Mona Lisa?",     
-  answers: [         
-    { text: "Vincent van Gogh", correct: false },         
-    { text: "Leonardo da Vinci", correct: true },         
-    { text: "Pablo Picasso", correct: false },         
-    { text: "Claude Monet", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which is the closest star to Earth?",     
-  answers: [         
-    { text: "Polaris", correct: false },         
-    { text: "The Sun", correct: true },         
-    { text: "Sirius", correct: false },         
-    { text: "Alpha Centauri", correct: false },     
-  ] 
-}, 
-{     
-  question: "What is the chemical symbol for water?",     
-  answers: [         
-    { text: "O2", correct: false },         
-    { text: "H2O", correct: true },         
-    { text: "CO2", correct: false },         
-    { text: "HO", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which country is known as the Land of the Rising Sun?",     
-  answers: [         
-    { text: "China", correct: false },         
-    { text: "Japan", correct: true },         
-    { text: "Thailand", correct: false },         
-    { text: "Korea", correct: false },     
-  ] 
-}, 
-{     
-  question: "How many continents are there in the world?",     
-  answers: [         
-    { text: "5", correct: false },         
-    { text: "6", correct: false },         
-    { text: "7", correct: true },         
-    { text: "8", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which metal is liquid at room temperature?",     
-  answers: [         
-    { text: "Mercury", correct: true },         
-    { text: "Iron", correct: false },         
-    { text: "Aluminum", correct: false },         
-    { text: "Silver", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which is the largest desert in the world?",     
-  answers: [         
-    { text: "Gobi", correct: false },         
-    { text: "Sahara", correct: false },         
-    { text: "Antarctic Desert", correct: true },         
-    { text: "Kalahari", correct: false },     
-  ] 
-}, 
-{     
-  question: "Who invented the light bulb?",     
-  answers: [         
-    { text: "Thomas Edison", correct: true },         
-    { text: "Nikola Tesla", correct: false },         
-    { text: "Alexander Graham Bell", correct: false },         
-    { text: "Michael Faraday", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which is the largest mammal on land?",     
-  answers: [         
-    { text: "Elephant", correct: true },         
-    { text: "Hippo", correct: false },         
-    { text: "Giraffe", correct: false },         
-    { text: "Rhino", correct: false },     
-  ] 
-}, 
-{     
-  question: "Which organ purifies our blood?",     
-  answers: [         
-    { text: "Heart", correct: false },         
-    { text: "Kidney", correct: true },         
-    { text: "Lungs", correct: false },         
-    { text: "Liver", correct: false },     
-  ] 
-}, 
-{     
-  question: "What is the capital city of Italy?",     
-  answers: [         
-    { text: "Paris", correct: false },         
-    { text: "Rome", correct: true },         
-    { text: "Milan", correct: false },         
-    { text: "Venice", correct: false },     
-  ] 
-},
-{     
   question: "What is the powerhouse of the cell?",     
   answers: [         
     { text: "Nucleus", correct: false },         
@@ -982,9 +703,97 @@ const questions = [
 }
 ];
 
+// const questionElement = document.getElementById("question");
+// const answerButtons = document.getElementById("answer-buttons");
+// const nextButton = document.getElementById("next-btn");
+
+// let currentQuestionIndex = 0;
+// let score = 0;
+
+// function startQuiz() {
+//   currentQuestionIndex = 0;
+//   score = 0;
+//   nextButton.innerHTML = "Next";
+//   showQuestion();
+// }
+
+// function showQuestion() {
+//   resetState();
+//   let currentQuestion = questions[currentQuestionIndex];
+//   let questionNo = currentQuestionIndex + 1;
+//   questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+
+//   currentQuestion.answers.forEach(answer => {
+//     const button = document.createElement("button");
+//     button.innerHTML = answer.text;
+//     button.classList.add("btn");
+//     if (answer.correct) {
+//       button.dataset.correct = answer.correct;
+//     }
+//     button.addEventListener("click", selectAnswer);
+//     answerButtons.appendChild(button);
+//   });
+// }
+
+// function resetState() {
+//   nextButton.style.display = "none";
+//   while (answerButtons.firstChild) {
+//     answerButtons.removeChild(answerButtons.firstChild);
+//   }
+// }
+
+// function selectAnswer(e) {
+//   const selectedBtn = e.target;
+//   const isCorrect = selectedBtn.dataset.correct === "true";
+
+//   if (isCorrect) {
+//     selectedBtn.classList.add("correct");
+//     score++;
+//   } else {
+//     selectedBtn.classList.add("incorrect");
+//   }
+
+//   Array.from(answerButtons.children).forEach(button => {
+//     if (button.dataset.correct === "true") {
+//       button.classList.add("correct");
+//     }
+//     button.disabled = true; 
+//   });
+
+//   nextButton.style.display = "block";
+// }
+
+// function showScore() {
+//   resetState();
+//   questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+//   nextButton.innerHTML = "Play Again";
+//   nextButton.style.display = "block";
+// }
+
+// function handleNextButton() {
+//   currentQuestionIndex++;
+//   if (currentQuestionIndex < questions.length) {
+//     showQuestion();
+//   } else {
+//     showScore();
+//   }
+// }
+
+// nextButton.addEventListener("click", () => {
+//   if (currentQuestionIndex < questions.length) {
+//     handleNextButton();
+//   } else {
+//     startQuiz();
+//   }
+// });
+
+// startQuiz();
+
+
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const backButton = document.getElementById("back-btn");
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -993,6 +802,7 @@ function startQuiz() {
   currentQuestionIndex = 0;
   score = 0;
   nextButton.innerHTML = "Next";
+  backButton.style.display = "none"; 
   showQuestion();
 }
 
@@ -1006,12 +816,15 @@ function showQuestion() {
     const button = document.createElement("button");
     button.innerHTML = answer.text;
     button.classList.add("btn");
+    answerButtons.appendChild(button);
     if (answer.correct) {
       button.dataset.correct = answer.correct;
     }
     button.addEventListener("click", selectAnswer);
-    answerButtons.appendChild(button);
   });
+
+
+  backButton.style.display = currentQuestionIndex > 0 ? "block" : "none";
 }
 
 function resetState() {
@@ -1024,7 +837,6 @@ function resetState() {
 function selectAnswer(e) {
   const selectedBtn = e.target;
   const isCorrect = selectedBtn.dataset.correct === "true";
-
   if (isCorrect) {
     selectedBtn.classList.add("correct");
     score++;
@@ -1032,15 +844,13 @@ function selectAnswer(e) {
     selectedBtn.classList.add("incorrect");
   }
 
-  // Highlight all correct answers
   Array.from(answerButtons.children).forEach(button => {
     if (button.dataset.correct === "true") {
       button.classList.add("correct");
     }
-    button.disabled = true; // disable after one click
+    button.disabled = true;
   });
 
-  // ✅ Only show Next button, don’t move forward automatically
   nextButton.style.display = "block";
 }
 
@@ -1049,6 +859,7 @@ function showScore() {
   questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
   nextButton.innerHTML = "Play Again";
   nextButton.style.display = "block";
+  backButton.style.display = "none";
 }
 
 function handleNextButton() {
@@ -1060,6 +871,13 @@ function handleNextButton() {
   }
 }
 
+function handleBackButton() {
+  if (currentQuestionIndex > 0) {
+    currentQuestionIndex--;
+    showQuestion();
+  }
+}
+
 nextButton.addEventListener("click", () => {
   if (currentQuestionIndex < questions.length) {
     handleNextButton();
@@ -1067,5 +885,7 @@ nextButton.addEventListener("click", () => {
     startQuiz();
   }
 });
+
+backButton.addEventListener("click", handleBackButton);
 
 startQuiz();

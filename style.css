@@ -6,10 +6,11 @@
 }
 
 body {
-  background: #001e4d;
+  background: #0855d1;
 }
 
 .app {
+  position: relative;
   background: #fff;
   width: 90%;
   max-width: 600px;
@@ -22,12 +23,28 @@ body {
   font-size: 25px;
   color: #001e4d;
   font-weight: 600;
-  border-radius: 1px soliod #ff0000;
+  border-radius: 1px solid #ff0000;
   padding-bottom: 30px;
 }
 
-.app span {
-  color: #001e4d;
+.count {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+}
+
+.correct-count,
+.false-count {
+  padding: 0.7rem;
+  border-radius: 0.2rem;
+}
+
+.correct-count {
+  background-color: #00800068;
+}
+
+.false-count {
+  background-color: #ff000075;
 }
 
 .quiz {
@@ -64,6 +81,19 @@ body {
   cursor: no-drop;
 }
 
+#back-btn {
+  padding: 0.2rem;
+  border-radius: 4px;
+  margin-bottom: 14px;
+  background: #fff;
+  border: none;
+}
+
+#back-btn:hover {
+  border: 1px solid#001e4d;
+  color: #001e4d;
+}
+
 #next-btn {
   color: #001e4d;
   font-weight: 500;
@@ -73,7 +103,7 @@ body {
   background: #fff;
   border: 1px solid #001e4d;
   cursor: pointer;
-  border-radius: 6px;
+  border-radius: 4px;
   transition: all 0.3s;
   display: none;
 }
@@ -81,6 +111,21 @@ body {
 #next-btn:hover {
   background: #001e4d;
   color: #fff;
+}
+
+.btn-exit {
+  padding: 0.4rem;
+  background: #fff;
+  color: #001e4d;
+  border-radius: 4px;
+  border: 1px solid #001e4d;
+  transition: all 0.3s;
+}
+
+.btn-exit:hover {
+  background: #ff0000;
+  color: #fff;
+  border: none;
 }
 
 .correct {
