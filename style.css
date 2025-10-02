@@ -93,7 +93,6 @@ body {
 }
 
 #back-btn:hover {
-  border: 1px solid#001e4d;
   color: #001e4d;
 }
 
@@ -139,4 +138,85 @@ body {
 .incorrect {
   background: #ff0000 !important;
   color: #fff;
+}
+
+@media (max-width: 768px) {
+  .app {
+    width: 95%;
+    margin: 50px auto;
+    padding: 20px;
+  }
+
+  .app h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .quiz h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #next-btn {
+    width: 40%;
+    font-size: 14px;
+  }
+
+  #back-btn {
+    font-size: 14px;
+    padding: 0.4rem 0.6rem;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
+
+/* Mobile phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .app {
+    width: 100%;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 0;
+  }
+
+  .app h1 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .count {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .quiz h2 {
+    font-size: 15px;
+  }
+
+  .btn {
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  #next-btn {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  #back-btn {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .btn-exit {
+    width: 100%;
+    font-size: 13px;
+    padding: 10px;
+  }
 }
